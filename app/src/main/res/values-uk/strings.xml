@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CE-1257218</string>
+    <string name="status_on">В роботi</string>
+    <string name="created">Створено</string>
+    <string name="registraited">Зареєстровано</string>
+    <string name="solve">Вирішити до</string>
+    <string name="responsible">Відповідальний</string>
+    <string name="company_name">Комунальне господарство</string>
+    <string name="apr">Квітень</string>
+    <string name="aug">Серпень</string>
+    <string name="dec">Грудень</string>
+    <string name="feb">Лютий</string>
+    <string name="july">Липень</string>
+    <string name="jun">Січень</string>
+    <string name="june">Червень</string>
+    <string name="mar">Березень</string>
+    <string name="may">Травень</string>
+    <string name="nov">Листопад</string>
+    <string name="oct">Жовтень</string>
+</resources>

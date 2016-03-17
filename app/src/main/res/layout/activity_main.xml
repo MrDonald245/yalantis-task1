@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/root_element"
+        tools:context="eugene.task.MainActivity">
+
+        <!-- Company name -->
+        <TextView
+            style="@style/header"
+            android:id="@+id/tvName"
+            android:onClick="onShowToast"
+            android:text="@string/company_name" />
+
+        <!-- Status -->
+        <TextView
+            style="@style/status"
+            android:id="@+id/tvStatus"
+            android:onClick="onShowToast"
+            android:text="@string/status_on" />
+
+        <!-- Separator -->
+        <View
+            style="@style/separator"
+            android:onClick="onShowToast" />
+
+        <!-- Created -->
+        <LinearLayout
+            style="@style/content_block">
+
+            <!-- Created label-->
+            <TextView
+                style="@style/content_label"
+                android:id="@+id/tvCreated"
+                android:onClick="onShowToast"
+                android:text="@string/created" />
+
+            <!-- Created date -->
+            <TextView
+                style="@style/content_data"
+                android:id="@+id/tvCreatedDate"
+                android:onClick="onShowToast" />
+
+        </LinearLayout>
+
+
+        <!-- Separator -->
+        <View
+            style="@style/separator"
+            android:onClick="onShowToast" />
+
+        <!-- Registraited -->
+        <LinearLayout
+            style="@style/content_block">
+
+            <!-- Registraited label -->
+            <TextView
+                style="@style/content_label"
+                android:id="@+id/tvRegistraited"
+                android:onClick="onShowToast"
+                android:text="@string/registraited" />
+
+            <!-- Registraited date -->
+            <TextView
+                style="@style/content_data"
+                android:id="@+id/tvRegistraitedDate"
+                android:onClick="onShowToast" />
+
+        </LinearLayout>
+
+        <!-- Separator -->
+        <View
+            style="@style/separator"
+            android:onClick="onShowToast" />
+
+        <!-- Solve -->
+        <LinearLayout
+            style="@style/content_block">
+
+            <!-- Solve label -->
+            <TextView
+                style="@style/content_label"
+                android:id="@+id/tvSolve"
+                android:onClick="onShowToast"
+                android:text="@string/solve" />
+
+            <!-- Solve date -->
+            <TextView
+                style="@style/content_data"
+                android:id="@+id/tvSolveDate"
+                android:onClick="onShowToast" />
+
+        </LinearLayout>
+
+        <!-- Separator -->
+        <View
+            style="@style/separator"
+            android:onClick="onShowToast" />
+
+        <!-- Responsible -->
+        <LinearLayout
+            style="@style/content_block">
+
+            <!-- Responsible label -->
+            <TextView
+                style="@style/content_label"
+                android:id="@+id/tvResponsible"
+                android:onClick="onShowToast"
+                android:text="@string/responsible" />
+
+            <!-- Responsible value -->
+            <TextView
+                style="@style/content_data"
+                android:id="@+id/tvResponsibleDate"
+                android:onClick="onShowToast" />
+
+        </LinearLayout>
+
+        <!-- Separator -->
+        <View
+            style="@style/separator"
+            android:onClick="onShowToast" />
+
+        <!-- Caption -->
+        <TextView
+            style="@style/caption"
+            android:id="@+id/tvCaption"
+            android:onClick="onShowToast" />
+
+        <!-- Images in RecycleView -->
+        <android.support.v7.widget.RecyclerView
+            style="@style/recycler_view"
+            android:id="@+id/rvPhotos"
+            android:onClick="onShowToast" />
+
+    </LinearLayout>
+
+</ScrollView>

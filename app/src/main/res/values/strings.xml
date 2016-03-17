@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CE-1257218</string>
+    <string name="status_on">In work</string>
+    <string name="created">Created</string>
+    <string name="registraited">Registraited</string>
+    <string name="solve">To solve</string>
+    <string name="responsible">Responsible</string>
+    <string name="company_name">Communal property</string>
+    <string name="jun">Junuary</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+</resources>
