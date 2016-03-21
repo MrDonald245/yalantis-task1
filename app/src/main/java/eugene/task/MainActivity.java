@@ -29,6 +29,9 @@ import eugene.task.adapters.ImageAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
+    //[Comment] Big space between recyclerview items
+    //[Comment] Wrong toolbar and status bar color
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         TextView caption = (TextView) findViewById(R.id.tvCaption);
 
         // init legalizeted content
-        String createdDateValue = "25 " + getString(R.string.feb) + " 2016";
+        String createdDateValue = "25 " + getString(R.string.feb) + " 2016"; //[Comment] Hardcoded strings, put them into strings.xml
         String registraitedDateValue = "26 " + getString(R.string.feb) + " 2016";
         String solveDateValue = "29 " + getString(R.string.feb) + " 2016";
         String responsibleValue = "Днiпропетровський МВК ( )";

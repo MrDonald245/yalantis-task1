@@ -43,6 +43,8 @@
         <item name="android:background">@android:color/darker_gray</item>
     </style>
 
+    <!-- [Comment] We don't include relativity attributes into styles.xml For example: marginTop, marginBottom e.t.c-->
+
     <style name="content_block">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
