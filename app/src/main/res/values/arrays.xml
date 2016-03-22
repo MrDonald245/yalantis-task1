@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="photo_links">
+        <item>http://i.imgur.com/inFG3BO.jpg</item>
+        <item>http://i.imgur.com/BBvx83n.jpg</item>
+        <item>http://i.imgur.com/wubgH7J.jpg</item>
+        <item>http://i.imgur.com/8ijnak0.jpg</item>
+    </string-array>
+</resources>

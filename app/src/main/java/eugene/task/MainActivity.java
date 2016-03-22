@@ -68,15 +68,12 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Recycler view initialization.
+     * Recycler view contents photos witch represents form arrays.xml,
+     * photo_links parameter
      */
     private void recyclerViewInit() {
 
-        // images for recycler view:
-        String[] dataSet = {
-                "http://i.imgur.com/inFG3BO.jpg",
-                "http://i.imgur.com/BBvx83n.jpg",
-                "http://i.imgur.com/wubgH7J.jpg",
-                "http://i.imgur.com/8ijnak0.jpg"};
+        String[] photoLinks = getResources().getStringArray(R.array.photo_links);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,
                 RecyclerView.HORIZONTAL, false);
@@ -85,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(new ImageAdapter(dataSet, this));
+        recyclerView.setAdapter(new ImageAdapter(photoLinks, this));
     }
 
     /**
