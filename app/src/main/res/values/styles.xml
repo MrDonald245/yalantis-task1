@@ -19,6 +19,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/header_font_size</item>
     </style>
 
     <style name="status">
@@ -43,6 +44,7 @@
     <style name="content_label">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
     </style>
 
     <style name="content_data">
@@ -50,12 +52,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">end</item>
         <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
     </style>
 
     <style name="caption">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
     </style>
 
     <style name="recycler_view">

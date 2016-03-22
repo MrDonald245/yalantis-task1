@@ -7,4 +7,6 @@
     <dimen name="photo_width">160dp</dimen>
     <dimen name="photo_height">180dp</dimen>
     <dimen name="photo_margin">5dp</dimen>
+    <dimen name="default_font_size">13sp</dimen>
+    <dimen name="header_font_size">15sp</dimen>
 </resources>

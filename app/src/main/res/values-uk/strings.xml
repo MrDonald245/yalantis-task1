@@ -7,15 +7,7 @@
     <string name="solve">Вирішити до</string>
     <string name="responsible">Відповідальний</string>
     <string name="company_name">Комунальне господарство</string>
-    <string name="apr">Квітень</string>
-    <string name="aug">Серпень</string>
-    <string name="dec">Грудень</string>
-    <string name="feb">Лютий</string>
-    <string name="july">Липень</string>
-    <string name="jun">Січень</string>
-    <string name="june">Червень</string>
-    <string name="mar">Березень</string>
-    <string name="may">Травень</string>
-    <string name="nov">Листопад</string>
-    <string name="oct">Жовтень</string>
+    <string name="created_value">25 лютого 2016</string>
+    <string name="registraited_value">26 лютого 2016</string>
+    <string name="solve_value">29 лютого 2016</string>
 </resources>

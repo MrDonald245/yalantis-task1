@@ -6,16 +6,9 @@
     <string name="solve">To solve</string>
     <string name="responsible">Responsible</string>
     <string name="company_name">Communal property</string>
-    <string name="jun">Junuary</string>
-    <string name="feb">February</string>
-    <string name="mar">March</string>
-    <string name="apr">April</string>
-    <string name="may">May</string>
-    <string name="june">June</string>
-    <string name="july">July</string>
-    <string name="aug">August</string>
-    <string name="sep">September</string>
-    <string name="oct">October</string>
-    <string name="nov">November</string>
-    <string name="dec">December</string>
+    <string name="created_value">25 February 2016</string>
+    <string name="registraited_value">26 February 2016</string>
+    <string name="solve_value">29 February 2016</string>
+    <string name="responsible_value">Днiпропетровський МВК( )</string>
+    <string name="caption_value">Открытый люк (возле рекламного щита), район поворота 18 и 19 трамваев на проспект Мира с Донецкого шоссе</string>
 </resources>

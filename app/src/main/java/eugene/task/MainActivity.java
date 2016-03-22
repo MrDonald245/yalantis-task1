@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        contentInit();
+        setBackButton();
         recyclerViewInit();
     }
 
@@ -56,33 +56,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Sets content to all of the elements inside the activity.
+     * Set back button to the activity.
      */
-    private void contentInit() {
+    private void setBackButton() {
 
         // set back button to action bar
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-
-        TextView createdDate = (TextView) findViewById(R.id.tvCreatedDate);
-        TextView registraitedDate = (TextView) findViewById(R.id.tvRegistraitedDate);
-        TextView solveDate = (TextView) findViewById(R.id.tvSolveDate);
-        TextView responsible = (TextView) findViewById(R.id.tvResponsibleDate);
-        TextView caption = (TextView) findViewById(R.id.tvCaption);
-
-        // init legalizeted content
-        String createdDateValue = "25 " + getString(R.string.feb) + " 2016"; //[Comment] Hardcoded strings, put them into strings.xml
-        String registraitedDateValue = "26 " + getString(R.string.feb) + " 2016";
-        String solveDateValue = "29 " + getString(R.string.feb) + " 2016";
-        String responsibleValue = "Днiпропетровський МВК ( )";
-        String captionValue = "Открытый люк (возле рекламного щита), район поворота 18 и 19 трамваев на проспект Мира с Донецкого шоссе";
-
-        createdDate.setText(createdDateValue);
-        registraitedDate.setText(registraitedDateValue);
-        solveDate.setText(solveDateValue);
-        responsible.setText(responsibleValue);
-        caption.setText(captionValue);
     }
 
     /**
