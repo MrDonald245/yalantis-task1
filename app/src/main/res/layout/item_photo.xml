@@ -3,4 +3,6 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ivPhoto"
     style="@style/item_photo"
+    android:layout_marginLeft="@dimen/photo_margin"
+    android:layout_marginRight="@dimen/photo_margin"
     android:onClick="onShowToast" />

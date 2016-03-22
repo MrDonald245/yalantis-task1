@@ -8,42 +8,53 @@
 
     <LinearLayout
         style="@style/root_element"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_padding"
+        android:paddingRight="@dimen/activity_padding"
+        android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="eugene.task.MainActivity">
 
         <!-- Company name -->
         <TextView
-            style="@style/header"
             android:id="@+id/tvName"
+            style="@style/header"
+            android:layout_marginBottom="@dimen/padding_among_elements"
             android:onClick="onShowToast"
             android:text="@string/company_name" />
 
         <!-- Status -->
         <TextView
-            style="@style/status"
             android:id="@+id/tvStatus"
+            style="@style/status"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast"
             android:text="@string/status_on" />
 
         <!-- Separator -->
         <View
             style="@style/separator"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Created -->
         <LinearLayout
-            style="@style/content_block">
+            style="@style/content_block"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements">
 
             <!-- Created label-->
             <TextView
-                style="@style/content_label"
                 android:id="@+id/tvCreated"
+                style="@style/content_label"
                 android:onClick="onShowToast"
                 android:text="@string/created" />
 
             <!-- Created date -->
             <TextView
-                style="@style/content_data"
                 android:id="@+id/tvCreatedDate"
+                style="@style/content_data"
                 android:onClick="onShowToast" />
 
         </LinearLayout>
@@ -52,23 +63,27 @@
         <!-- Separator -->
         <View
             style="@style/separator"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Registraited -->
         <LinearLayout
-            style="@style/content_block">
+            style="@style/content_block"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements">>
 
             <!-- Registraited label -->
             <TextView
-                style="@style/content_label"
                 android:id="@+id/tvRegistraited"
+                style="@style/content_label"
                 android:onClick="onShowToast"
                 android:text="@string/registraited" />
 
             <!-- Registraited date -->
             <TextView
-                style="@style/content_data"
                 android:id="@+id/tvRegistraitedDate"
+                style="@style/content_data"
                 android:onClick="onShowToast" />
 
         </LinearLayout>
@@ -76,23 +91,27 @@
         <!-- Separator -->
         <View
             style="@style/separator"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Solve -->
         <LinearLayout
-            style="@style/content_block">
+            style="@style/content_block"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements">>
 
             <!-- Solve label -->
             <TextView
-                style="@style/content_label"
                 android:id="@+id/tvSolve"
+                style="@style/content_label"
                 android:onClick="onShowToast"
                 android:text="@string/solve" />
 
             <!-- Solve date -->
             <TextView
-                style="@style/content_data"
                 android:id="@+id/tvSolveDate"
+                style="@style/content_data"
                 android:onClick="onShowToast" />
 
         </LinearLayout>
@@ -100,23 +119,27 @@
         <!-- Separator -->
         <View
             style="@style/separator"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Responsible -->
         <LinearLayout
-            style="@style/content_block">
+            style="@style/content_block"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements">>
 
             <!-- Responsible label -->
             <TextView
-                style="@style/content_label"
                 android:id="@+id/tvResponsible"
+                style="@style/content_label"
                 android:onClick="onShowToast"
                 android:text="@string/responsible" />
 
             <!-- Responsible value -->
             <TextView
-                style="@style/content_data"
                 android:id="@+id/tvResponsibleDate"
+                style="@style/content_data"
                 android:onClick="onShowToast" />
 
         </LinearLayout>
@@ -124,20 +147,24 @@
         <!-- Separator -->
         <View
             style="@style/separator"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Caption -->
         <TextView
-            style="@style/caption"
             android:id="@+id/tvCaption"
+            style="@style/caption"
+            android:layout_marginBottom="@dimen/padding_among_elements"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
         <!-- Images in RecycleView -->
         <android.support.v7.widget.RecyclerView
-            style="@style/recycler_view"
             android:id="@+id/rvPhotos"
+            style="@style/recycler_view"
+            android:layout_marginTop="@dimen/padding_among_elements"
             android:onClick="onShowToast" />
 
     </LinearLayout>
-
 </ScrollView>
