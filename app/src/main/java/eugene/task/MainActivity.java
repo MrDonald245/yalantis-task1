@@ -29,8 +29,6 @@ import eugene.task.adapters.ImageAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    //[Comment] Wrong toolbar and status bar color
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
