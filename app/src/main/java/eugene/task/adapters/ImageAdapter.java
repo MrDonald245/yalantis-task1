@@ -68,6 +68,8 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
     public void onBindViewHolder(ViewHolder holder, int position) {
         Picasso.with(mContext)
                 .load(mDataSet[position])
+                .resizeDimen(R.dimen.photo_width, R.dimen.photo_height)
+                .centerCrop()
                 .into(holder.imageView);
     }
 

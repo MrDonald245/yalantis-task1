@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="8dp">
 
-    <ImageView
-        style="@style/item_photo"
-        android:id="@+id/ivPhoto"
-        android:onClick="onShowToast" />
-
-</LinearLayout>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ivPhoto"
+    style="@style/item_photo"
+    android:onClick="onShowToast" />

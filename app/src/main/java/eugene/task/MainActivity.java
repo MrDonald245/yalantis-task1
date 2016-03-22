@@ -29,7 +29,6 @@ import eugene.task.adapters.ImageAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    //[Comment] Big space between recyclerview items
     //[Comment] Wrong toolbar and status bar color
 
     @Override
