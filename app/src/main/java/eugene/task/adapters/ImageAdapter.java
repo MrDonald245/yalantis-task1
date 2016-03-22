@@ -39,7 +39,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public ImageView imageView; //[Comment] Invalid visibility modifier
+        private ImageView imageView;
 
         public ViewHolder(View imageView) {
             super(imageView);
@@ -51,7 +51,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
 
     public ImageAdapter(String[] dataSet, Context context) {
         this.mDataSet = dataSet;
-        this.mContext = context; //[Comment] You don't need this. Just mContext = context;
+        mContext = context;
     }
 
 
