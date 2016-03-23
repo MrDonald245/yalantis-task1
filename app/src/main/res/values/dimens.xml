@@ -9,4 +9,6 @@
     <dimen name="photo_margin">5dp</dimen>
     <dimen name="default_font_size">13sp</dimen>
     <dimen name="header_font_size">15sp</dimen>
+    <dimen name="status_text_size">13sp</dimen>
+    <dimen name="separator_height">1dp</dimen>
 </resources>

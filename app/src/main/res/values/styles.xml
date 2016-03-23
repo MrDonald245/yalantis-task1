@@ -27,11 +27,12 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/rounded_corner</item>
         <item name="android:textColor">@color/colorStatusText</item>
+        <item name="android:textSize">@dimen/status_text_size</item>
     </style>
 
     <style name="separator">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">@dimen/separator_height</item>
         <item name="android:background">@android:color/darker_gray</item>
     </style>
 
